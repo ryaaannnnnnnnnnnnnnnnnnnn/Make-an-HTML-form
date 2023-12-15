@@ -1,33 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Pizza Hut</h1>
-    <p>Getting info about Pizza</p>
-   <section class="Nutrition">
-    <input type="text" name="username" required>
-    <br>
-    <label for="user-pw">Password</label>
-    <input type="password" name="user-pw" id="user-pw" required>
-    <br>
-    <label for="amount">How much Cheese do you want?</label>   
-    <input type="number" name="amount" id="amount" step="1">
-    <br>
-    <section>
-      <input type="button" name="" id="">
-    </form>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&quot; rel="stylesheet">
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <section id="overlay">
+      <img src="img/burger-logo.svg">
+      <hr>
+      <!--Add your code below-->
+      <form action="/practice.html" method="POST">
+        <h1>Pizza Hut</h1>
+        <p>Getting info about Pizzas:</p>
+        <section class="protein">
+          <label for="user-pw">Username</label>
+        <input type="text" name="username" required>
+        <br>
+        <label for="user-pw">Password</label>
+        <input type="password" name="user-pw" id="user-pw" required>
+        <br>
+        <label for="amount">How many Pizzas do you want?</label>
+        <input type="number" name="amount" id="amount" step="1">
+        <br>
+        <label for="Type">What kind of Pizza do you want?</label>
+        <br>
+        <!-- This is where the checkbox goes-->
+        <input type="checkbox" id="Stuffed" value="Stuffed" name="Kind of Pizzas">
+        <label for="Stuffed">Stuffed</label>
 
 
-    </section>
-    
-</body>
-</html>
+        <!-- !-- This is where the checkbox <goes-->
+          <input type="checkbox" id="Pan" value="Pan" name="Kind of Pizzas">
+          <label for="Pan">Pan</label>
 
 
 
-</head>
-</html>
+        <!-- This is where the checkbox goes-->
+        <input type="checkbox" id="Cheese" value="Cheese" name="Cheese">
+        <label for="Cheese">Cheese</label>
+
+        <!-- This is where the checkbox goes-->
+        <input type="checkbox" id="Supreme" value="Supreme" name="Supreme">
+        <label for="Supreme">Supreme</label>
+
+
+
+        
