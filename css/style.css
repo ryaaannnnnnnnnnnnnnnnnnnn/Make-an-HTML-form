@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+.center {
+    margin: auto;
+    width: 100%;
+    border: 3px solid rgb(0,0,0);
+    padding: 10px;
+    text-align: center;
+}
+#overlay {
+    max-width: 700px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;}
+    body{
+        font-family: 'Arial', sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+    }
+    p {
+        text-align: center;
+    }
+
+    label {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    input,
+    select,
+    text area {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+    }
